@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 自定義組件 */
+@layer components {
+  /* antd Carousel 樣式 */
+  .ant-carousel .slick-dots {
+    @apply bottom-4;
+  }
+
+  .ant-carousel .slick-dots li button {
+    @apply bg-white/50 w-3 h-3 rounded-full;
+  }
+
+  .ant-carousel .slick-dots li.slick-active button {
+    @apply bg-white;
+  }
+
+  .ant-carousel .slick-arrow {
+    @apply bg-black/30 text-white hover:bg-black/50 transition-colors;
+  }
+
+  .ant-carousel .slick-prev {
+    @apply left-4;
+  }
+
+  .ant-carousel .slick-next {
+    @apply right-4;
+  }
+
+  /* Event Card 樣式 */
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  .card-image {
+    @apply relative overflow-hidden cursor-pointer;
+  }
+  .card-image img {
+    @apply w-full h-48 object-cover transition-transform duration-300 hover:scale-105;
+  }
+  .card-event-content {
+    @apply p-4 space-y-3;
+  }
+  .card-event-name {
+    @apply text-lg font-semibold text-gray-800 line-clamp-2 cursor-pointer hover:text-blue-600 transition-colors;
+  }
+  .card-event-location {
+    @apply text-sm text-gray-600 cursor-pointer hover:text-blue-600 transition-colors;
+  }
+  .location-type::before {
+    margin-right: 4px;
+    background-image: url(../../public/images/event-card-location.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .video-type::before {
+    margin-right: 4px;
+    background-image: url(../../public/images/icon-card-online.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .tags-container {
+    @apply mt-3 pt-3 border-t border-gray-100;
+  }
+
+  .tags {
+    @apply text-sm text-blue-600 cursor-pointer hover:text-blue-800 transition-colors;
+  }
+
+  .tags-counts {
+    @apply space-x-4 text-sm text-gray-500;
+  }
+
+  .tags-counts span {
+    @apply flex items-center;
+  }
+
+  /* RWD */
+  @media (max-width: 768px) {
+    .card-event-content {
+      @apply p-3;
+    }
+    
+    .card-event-name {
+      @apply text-base;
+    }
+  }
+}
+

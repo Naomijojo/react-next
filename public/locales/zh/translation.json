@@ -1,0 +1,47 @@
+{
+  "login": "登入",
+  "register":"註冊",
+  "UserName": "使用者名稱",
+  "password": "密碼",
+  "forgot_password": "忘記密碼",
+  "email": "電子郵件",
+  "backToLogin":"想起密碼了? 前往登入",
+  "sentMail": "寄送驗證信",
+  "user": "使用者",
+  "UserTickets": "我的票券",
+  "UserPage": "我的頁面",
+  "UserProfile": "我的檔案",
+  "UserSetting": "帳號管理",
+  "OrganizerCenter": "主辦中心",
+  "logout": "登出",
+  "search_activities": "找活動",
+  "language": "語言",
+  "mode": "模式",
+  "organize_activities": "辦活動",
+  "tab":{
+    "featured": "精選",
+    "learning": "學習",
+    "art": "藝文",
+    "experience": "體驗"
+  },
+  "hot_recommends": "熱門推薦", 
+  "fresh_news": "每天一點新鮮事",
+  "featured_events": "精選活動",
+  "more": "更多活動",
+  "organizer": "主辦榜",
+  "no_activities": "目前沒有相關活動",
+  "keywords": "輸入關鍵字",
+  "search_history": "搜尋紀錄",
+  "popular_search": "熱門搜尋",
+  "sort": {
+    "label": "排序",
+    "asc": "由舊到新",
+    "desc": "由新到舊"
+  },
+  "location": {
+    "taipei": "台北",
+    "taichung": "台中",
+    "kaohsiung": "高雄",
+    "singapore": "新加坡"
+  }
+}

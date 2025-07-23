@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "icon": "icon-star",
+    "label": "tab.featured"
+  },
+  {
+    "id": 2,
+    "icon": "icon-learn",
+    "label": "tab.learning"
+  },
+  {
+    "id": 3,
+    "icon": "icon-art",
+    "label": "tab.art"
+  },
+  {
+    "id": 4,
+    "icon": "icon-experience",
+    "label": "tab.experience"
+  }
+]

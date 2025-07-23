@@ -1,0 +1,943 @@
+[
+  {
+    "id": 1,
+    "image": "https://static.accupass.com/eventbanner/2506160924337326465130.jpg",
+    "title": "客家童謠夏令營",
+    "views": 321,
+    "likes": 7,
+    "time": 1742983200,
+    "position": { "lat": 25.04197, "lng": 121.51624 },
+    "address": "台灣桃園市八德區崁頂路60號",
+    "addressRemark": "桃園北區客家會館",
+    "location": "桃園市",
+    "tag": "客家童謠",
+    "category": "recommend",
+    "description":"#唱跳活動#音樂啟蒙#夏日童謠小隊🎤這不是一般的夏令營，我們要組成超可愛的「童謠隊」啦！一起唱唱跳跳學客語，玩桌遊認識在地文化，還要自己動手做山歌幻燈機，最後登場錄影，拍下我們的童謠小MV！每一個笑聲、每一段歌聲，都是這個夏天最棒的回憶～",
+    "avatarImg": "https://static.accupass.com/org/2004300959321752495097_None.jpg",
+    "orgTitle": "驚豔台灣文創工作室",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1742990400,
+        "title": "一般票：夜遊場",
+        "price": 1600
+      },
+      {
+        "id": 2,
+        "date": 1742990400,
+        "title": "多人好友票：夜遊場",
+        "price": 1490
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://static.accupass.com/eventbanner/2506230202327931519510.jpg",
+    "title": "114年長者功能評估互動式特展 ICOPE長者量六力",
+    "views": 1741,
+    "likes": 47,
+    "time": 1741413600,
+    "position": { "lat": 25.05485 , "lng": 121.50895 },
+    "address": "台灣台北市八德路一段1號",
+    "addressRemark": "華山1914文創園區西1館",
+    "location": "台北市",
+    "tag": "銀髮族健康",
+    "category": "recommend",
+    "description":"今年特以「互動式展覽」提升長者與其家屬對於長者功能評（ICOPE）的認識，並鼓勵民眾使用 「長者量六力」LINE官方帳號進行自評，讓長者能在家自主進行健康監測與功能評估。本展覽將透過多感官體驗、遊戲化學習以及專業解說，讓長者能親身參與、深入理解、提升自我健康管理能力。",
+    "avatarImg": "https://static.accupass.com/userupload/d685a424661a4452b4232773fa1e0e72.jpg",
+    "orgTitle": "半隻羊立體書實驗室",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1741413600,
+        "title": "8/2 場次",
+        "price": 200
+      },
+      {
+        "id": 2,
+        "date": 1741413600,
+        "title": "8/26 場次",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://static.accupass.com/eventbanner/2506130926121285753608.jpg",
+    "title": "2025桃園鍾肇政文學營 - 筆續鍾肇政，共寫文學新篇章",
+    "views": 2000,
+    "likes": 200,
+    "time": 1741419000,
+    "position": { "lat": 25.04156, "lng": 121.56521 },
+    "address": "台灣桃園市龍潭區東龍路196號",
+    "addressRemark": "武德殿",
+    "location": "桃園市",
+    "tag": "台灣文學",
+    "category": "recommend",
+    "description":"你是否曾幻想，走進小說的場景裡，與角色對話，甚至接下作者的筆，續寫未完的故事？今年，我們誠摯邀請你參與一場獨特的文學冒險——鍾肇政文學營。鍾肇政，一位以筆耕台灣歷史、描繪人文風景的重量級作家，他的故事從來不只是結束，而是邀請更多人共鳴與延續的開始。在這場文學營中，我們將透過創意寫作、角色接筆、場域走讀與共創工作坊，引領你穿梭時代，與鍾肇政對話、與文字交心，親自寫下屬於你對這片土地的想像與記憶。來吧，讓我們一起接住鍾肇政的筆，書寫屬於這一代的文學篇章。",
+    "avatarImg": "https://static.accupass.com/org/2310141055381584099408.jpg",
+    "orgTitle": "財團法人桃園市客家文化基金會",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1741419000,
+        "title": "8/2~3 悠悠文學營",
+        "price": 1000
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://static.accupass.com/eventbanner/2506250304485798003000.jpg",
+    "title": "〖台北〗Wineの多重宇宙｜漫遊20+5葡萄酒星球 （走動式暢飲酒展）",
+    "views": 5,
+    "likes": 173,
+    "time": 1743228000,
+    "position": { "lat": 25.01833, "lng": 121.45916 },
+    "address": "台灣台北市信義區松壽路9號3樓",
+    "addressRemark": "ENOTECA A9旗艦店 （新光三越　台北信義新天地A9館）",
+    "location": "台北市",
+    "tag": "微型酒展",
+    "category": "recommend",
+    "description":"久違多時，ENOTECA夏日微型酒展終於再度登場了！！！品酩體驗活動・享用精緻起司，搭配20款風格各異的葡萄酒無限品飲。・購買首席典藏票者，加碼品酩5杯高階限量酒款（30ml/杯）。・活動期間開放3小時，可自由探索喜愛的風味。特別活動： 參與「人氣酒款票選」，投下你最愛的一杯！---7月27日，與您相見ENOTECA A9旗艦店。",
+    "avatarImg": "https://static.accupass.com/org/2407080639481842531670.jpg",
+    "orgTitle": "ENOTECA TAIWAN",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1743228000,
+        "title": "典藏票",
+        "price": 2199
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://static.accupass.com/eventbanner/2507020610451075727621.jpg",
+    "title": "工作坊體驗—承槳工作坊",
+    "views": 1505,
+    "likes": 18,
+    "time": 1740794400,
+    "position": { "lat": 25.04346, "lng": 121.52924 },
+    "address": "台灣基隆市中正區中正路393巷30號2樓",
+    "addressRemark": "星濱海港學校",
+    "location": "基隆市",
+    "tag": "基隆",
+    "category": "recommend",
+    "description":"「我們的造船還保留著製作木船的傳統」，故事從這句話開始。本場工作坊邀請澳門造船工藝文化協會，不僅分享荔枝碗這座百年古村的造船歷史，如何從昔日的造船重鎮轉型為今日的文化聚落，也將透過實作體驗，帶領大家親身感受木船槳工藝的魅力。沿著海岸線，我們與澳門產生連結，看見一門手藝如何跨越時代傳承，也映照著港口、產業與記憶交織的脈絡。",
+    "avatarImg": "https://static.accupass.com/org/2407281232555051158590.jpg",
+    "orgTitle": "星濱山",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1740794400,
+        "title": "工作坊-承槳工作坊",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://static.accupass.com/eventbanner/2507080246341796553131.jpg",
+    "title": "8/30(六) 8/31(日) 🥾【挖綠竹筍體驗 一日小旅行】🌿",
+    "views": 377,
+    "likes": 8,
+    "time": 1743228000,
+    "position": { "lat": 25.05472, "lng": 121.50994},
+    "address": "台灣基隆市瑪西里民活動中心（七堵區大華三路75-1號）",
+    "addressRemark": "瑪西里民活動中心（基隆市七堵區大華三路75-1號）",
+    "location": "基隆市",
+    "tag": "農村體驗",
+    "category": "recommend",
+    "description":"🥾【挖綠竹筍體驗 一日小旅行】🌿走進基隆七堵的瑪西社區，展開一場結合文化導覽與農事體驗的小旅行。活動從礦工聚落出發，認識寄命土地公、福海斷橋與阿班嶺社區的歷史，再由在地農友親自教學，實地體驗掘筍的技巧與樂趣。最後回到瑪陵遊客中心，享用熱騰騰的礦工便當，補足一早的辛勞與收穫。每位參加者還可帶回兩斤新鮮現掘的綠竹筍。這不只是一場體驗，更是一趟深入了解地方產業與山城文化的旅程。適合親子共遊，也適合想親近土地、感受在地風土的你。",
+    "avatarImg": "https://static.accupass.com/org/2305140329157972087810.jpg",
+    "orgTitle": "委託行街區股份有限公司",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1743228000,
+        "title": "🔸8/31（日）｜面桶寮陳德郎農園",
+        "price": 600
+      },
+      {
+        "id": 2,
+        "date": 1743228000,
+        "title": "Sound Fest 一般票",
+        "price": 500
+      }
+    ]
+  },
+  
+  {
+    "id": 7,
+    "image": "https://static.accupass.com/eventbanner/2501091438261877023932.jpg",
+    "title": "【不只是登山：困難地形通過】困難地形通過入門四月場｜拼圖戶外生活",
+    "views": 775,
+    "likes": 14,
+    "time": 1744506000,
+    "position": { "lat": 24.97906, "lng": 121.59901 },
+    "address": "台灣台北市猴山岳前峰",
+    "addressRemark": "",
+    "location": "台北市",
+    "tag": "登山",
+    "category": "featured-1",
+    "description":"劍龍稜、皇帝殿、五寮尖，除了這些路線外，登山很常遇到各種需要攀爬的地形；若有人工架好的繩索與輔助，爬起來好像沒有很困難，然而若沒有輔助繩，你有辦法安全通過嗎？而那些既有的繩索繩梯，真的安全嗎？一天戶外登山工作坊，將讓大家學會該如何判斷岩壁上的輔助設施是否安全，以及了解在台灣爬山常會遇到的攀爬及崩塌地形該怎麼通過才會更安全，降低自己與朋友在爬山通過困難地形的風險",
+    "avatarImg": "https://static.accupass.com/org/2005260527172844358540.jpg",
+    "orgTitle": "PuzzleOutdoor 拼圖戶外生活",
+    "orgInfoText":"一起登山趣",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1744506000",
+        "title": "單人定價",
+        "price": 1550
+      },
+      {
+        "id": 2,
+        "date": "1744506000",
+        "title": "團報優惠/每人",
+        "price": 1450
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://static.accupass.com/eventbanner/2502060047485145503010.jpg",
+    "title": "藝術市場的邏輯揭秘",
+    "views": 251,
+    "likes": 20,
+    "time": 1742106600,
+    "position": { "lat": 25.05412, "lng": 121.54426 },
+    "address": "台灣台北市復興北路167號4樓之2",
+    "addressRemark": "攝影獵人製造所",
+    "location": "台北市",
+    "tag": "藝術市場",
+    "category": "featured-1",
+    "description":"藝術市場如何運作？學術理論如何轉化為實際策略？本課程將由紐約與倫敦蘇富比藝術學院碩士畢業的講者攜手主講，結合學術洞見與市場實踐經驗，帶您深入解讀藝術市場的核心邏輯。通過案例分享與趨勢解析，將為您提供全方位的藝術市場視角，幫助在商業藝術的領域裡發現更多可能性。",
+    "avatarImg": "https://static.accupass.com/org/2412291544541739083864.jpg",
+    "orgTitle": "攝影獵人製造所",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1742106600",
+        "title": "個人票",
+        "price": 480
+      },
+      {
+        "id": 2,
+        "date": "1742106600",
+        "title": "團體票/每人",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://static.accupass.com/eventbanner/2502111219089907933430.jpg",
+    "title": "2025 藝文寫作班 - 企劃入門 (四月場)",
+    "views": 1968,
+    "likes": 54,
+    "time": 1743818400,
+    "position": { "lat": 25.05148, "lng": 121.56525 },
+    "address": "台灣台北市松山區南京東路五段212號5F",
+    "addressRemark": "捷運南京三民3號出口走路1分鐘",
+    "location": "台北市",
+    "tag": "政府標案",
+    "category": "featured-1",
+    "description": "Taipei Art Notes『2025藝文寫作班』四月推出【企劃入門 — 寫手的通識課】，融合工作坊的共學形式，以「專業養成」、「邏輯思考」、「提案美學」、「創意文案」四個面向，簡介台灣藝文產業，以及企劃人才需要具備的職能，並提供相關的學習資源與閱讀書單。本場實體課程同步開放線上參與，期待更多朋友可以加入我們藝文企劃的行列！",
+    "avatarImg": "https://static.accupass.com/org/2412291544541739083864.jpg",
+    "orgTitle": "Taipei Art Notes",
+    "orgInfoText":"Taipei Art Notes",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743818400",
+        "title": "企劃入門-實體上課 (早鳥優惠)",
+        "price": 3240
+      },
+      {
+        "id": 2,
+        "date": "1743818400",
+        "title": "企劃入門-線上上課 (早鳥優惠)",
+        "price": 3240
+      },
+      {
+        "id": 3,
+        "date": "1743818400",
+        "title": "企劃入門-實體上課 (原價)",
+        "price": 3600
+      },
+      {
+        "id": 4,
+        "date": "1743818400",
+        "title": "企劃入門-線上上課 (原價)",
+        "price": 3600
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://static.accupass.com/eventbanner/2503010103465168650730.jpg",
+    "title": "不只是圖書館｜雙金得獎系列座談｜設計師講堂",
+    "views": 352,
+    "likes": 11,
+    "time": 1742612400,
+    "position": { "lat": 25.04419, "lng": 121.56103 },
+    "address": "台灣台北市信義區光復南路133號創意劇場",
+    "addressRemark": "松山文創園區｜2F｜創意劇場",
+    "location": "線上活動",
+    "tag": "painting workshop",
+    "category": "featured-1",
+    "description": "如果你對設計、創意或藝術有興趣，這是一個由策展人、設計師和創作者們親自分享經驗的座談會，讓我們一起探索設計背後的故事和創作過程。✔️上午11:00-13:00 從設計看《你好，人類！》的誕生✔️下午14:00-16:30 設計背後的故事：創作的轉換與對話分享✔️講座結束後，專場導覽帶你看雙金（金點、金蝶）展覽！",
+    "avatarImg": "https://static.accupass.com/org/2106281014464431441310.jpg",
+    "orgTitle": "不只是圖書館 Not Just Library",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1742612400",
+        "title": "【上午場】從設計看《你好，人類！》的誕生",
+        "price": 150
+      },
+      {
+        "id": 2,
+        "date": "1742619600",
+        "title": "【下午場】設計背後的故事：創作的轉換與對話分享",
+        "price": 150
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://static.accupass.com/eventbanner/2502240117369357928000_P520x260.jpg",
+    "title": "住宅微型化的設計新趨勢：2025設計論壇",
+    "views": 395,
+    "likes": 11,
+    "time": 1743051600,
+    "position": { "lat": 25.05980, "lng": 121.57849 },
+    "address": "台灣台北市內湖區新湖一路185號",
+    "addressRemark": "台北設計建材中心 7 樓群聚聽",
+    "location": "台北市",
+    "tag": "住宅設計",
+    "category": "featured-1",
+    "description": "「住宅微型化的設計新趨勢：2025設計論壇」將於3月27日舉行，由台灣室內設計專技協會（TnAID）與《i室設圈｜漂亮家居》共同主辦，邀請產業專家與設計師齊聚，深入探討居住空間微型化下的設計變革以及未來的設計趨勢發展。",
+    "avatarImg": "https://static.accupass.com/org/2304210310471577440461.jpg",
+    "orgTitle": "i室設圈｜漂亮家居",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743051600",
+        "title": "一般票(單場)",
+        "price": 1200
+      },
+      {
+        "id": 2,
+        "date": "1743051600",
+        "title": "寶姐臉書好友 優惠票",
+        "price": 1000
+      },
+      {
+        "id": 3,
+        "date": "1743051600",
+        "title": "TnAID有效會員本人 優惠票(單場)",
+        "price": 900
+      },
+      {
+        "id": 4,
+        "date": "1743051600",
+        "title": "2025年4場論壇套票",
+        "price": 3200
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://static.accupass.com/eventbanner/2503101327019290362590.jpg",
+    "title": "透視:音像藝術展演 Perspectives Audio-Vusial Art ",
+    "views": 356,
+    "likes": 15,
+    "time": 1745145000,
+    "position": { "lat": 25.05284, "lng": 121.59832 },
+    "address": "台灣台北市南港區市民大道八段99號",
+    "addressRemark": "台北流行音樂中心 Live House D",
+    "location": "台北市",
+    "tag": "音像藝術",
+    "category": "featured-1",
+    "description":"本次音像藝術展演匯聚海內外傑出藝術家，以聲音視覺交融的創意形式，呈現跨界與實驗性的作品。 透過音像互動與即興創作， 為觀眾帶來沉浸式體驗，並促進國際與當地藝術家交流 ，推動音像藝術的廣泛認識與欣賞。",
+    "avatarImg": "https://static.accupass.com/org/2503111358331192614135.jpg",
+    "orgTitle": "岩岩數位藝術工作室 Pinsbkan Digital Art",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1745145000",
+        "title": "線上優惠",
+        "price": 666
+      },
+      {
+        "id": 2,
+        "date": "1745145000",
+        "title": "當日現場全票",
+        "price": 1000
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://static.accupass.com/eventbanner/2501040328081716453523.jpg",
+    "title": "《油畫課程長期學習 ｜ 台北市大安區｜ 日夕藝術 ",
+    "views": 55,
+    "likes": 1,
+    "time": 1745114400,
+    "position": { "lat": 25.04281, "lng": 121.55382 },
+    "address": "台灣台北市大安區延吉街70巷2弄2-1號2樓",
+    "addressRemark": "忠孝敦化2號出口｜國父紀念館1號出口",
+    "location": "台北市",
+    "tag": "油畫",
+    "category": "featured-2",
+    "description":"不論您是否有繪畫經驗，皆可透過本次繪畫體驗課感受到繪畫的樂趣。本畫室提供最舒適的繪畫環境，以及非常有經驗的師資，讓您擁有最棒的繪畫體驗！畫室位於台北市大安區延吉街，東區生活圈，距離忠孝敦化｜國父紀念館捷運站相當近，畫室會提供所需的繪畫材料，只要人到就好囉！",
+    "avatarImg": "https://static.accupass.com/org/2205151756452087272243.jpg",
+    "orgTitle": "日夕藝術 Rih Si Art Studio",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1745114400",
+        "title": "簡易",
+        "price": 550
+      },
+      {
+        "id": 2,
+        "date": "1745114400",
+        "title": "一般",
+        "price": 750
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://static.accupass.com/eventbanner/2503051639252687599570.jpg",
+    "title": "2025 DITL Open House：開啟，設計創新！",
+    "views": 23,
+    "likes": 10,
+    "time": 1741999800,
+    "address": "此活動為線上活動，購票後可於票券頁進入直播連結",
+    "addressRemark": "本活動使用Zoom軟體直播",
+    "location": "台北市",
+    "tag": "AI",
+    "category": "featured-2",
+    "description":"本次 Open House，唐教授與 DITL 團隊將帶來體驗設計、體驗戰略、服務創新、AI 創新的實戰成果與深度反思。內容涵蓋知名代理商品牌 & 建設公司服務研究案、動物收容所與展演設計案，以及 AI 在設計應用、體驗策略框架與 CX 管理 的核心洞察。",
+    "avatarImg": "https://static.accupass.com/org/2502220743379380411050.jpg",
+    "orgTitle": "DITL 設計創新思考研究室",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1745114400",
+        "title": "【學生票】3/22 體驗設計：從公共服務到民間企業，體驗設計如何驅動創新且創造價值？",
+        "price": 600
+      },
+      {
+        "id": 2,
+        "date": "1745114400",
+        "title": "【一般票】3/22 體驗設計：從公共服務到民間企業，體驗設計如何驅動創新且創造價值？",
+        "price": 1200
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://static.accupass.com/eventbanner/2502270605301240768523.jpg",
+    "title": "2025藝集電影線上講堂｜馬欣 :【多重面目的角色美學：解析文學與電影中的人性詭奇與心靈恐懼】",
+    "views": 619,
+    "likes": 13,
+    "time": 1742986800,
+    "position": { "lat": 25.02853, "lng": 121.53188 },
+    "address": "台灣台北市青田街4-1號(純線上課程)",
+    "addressRemark": "02-2391-1268洽詢",
+    "location": "台北市",
+    "tag": "電影解析",
+    "category": "featured-2",
+    "description":"我們將以各種經典電影與小說來深入探討文學與電影中角色的多重樣貌。以及過往電影盛世時如何讓許多角色更具象立體且歷久彌新。(如阿甘、小丑與楚門等)電影的詭奇美學從早年的德國表現主義，大衛林區的神祕抽象到現今的動畫宇宙如何穿刺般訴說社會的無意識與文化焦慮的縮影。這是一場結合理論深度與文本細讀的電影課程，藉由藝術更貼近人性多重的幽微冒險。",
+    "avatarImg": "https://static.accupass.com/org/2006101820397379202360.jpg",
+    "orgTitle": "青田藝集",
+    "orgInfoText":"青田藝集",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1742986800",
+        "title": "第一講  【群體中的異化與夢境幻覺電影】",
+        "price": 400
+      },
+      {
+        "id": 2,
+        "date": "1743073200",
+        "title": "第二講  【榮格心理學綜合了日本怪談美學的電影】",
+        "price": 400
+      },
+      {
+        "id": 3,
+        "date": "1743159600",
+        "title": "第三講  【對自己鏡像上癮的王爾德悲傷美學電影】",
+        "price": 400
+      },
+      {
+        "id": 4,
+        "date": "1743246000",
+        "title": "第四講  【日本奇幻漫畫為何影響我們的美學至今？解析電影中醜怪亦是美的境界。】",
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://static.accupass.com/eventbanner/2502240424212345545570.jpg",
+    "title": "【台北場】室內市集｜網路創業｜網購好物分享會",
+    "views": 684,
+    "likes": 18,
+    "time": 1743829200,
+    "position": { "lat": 25.04247, "lng": 121.56556 },
+    "address": "台灣台北市信義區基隆路一段153-1號1樓",
+    "addressRemark": "萬世大樓 woo manpower女力空間",
+    "location": "台北市",
+    "tag": "創業",
+    "category": "featured-2",
+    "description": "※ 電商通路越來越難做？這裡有百萬業績店家無私分享營銷秘術！※ 中小企業在網路紅海只能削價競爭？我們這裡不玩這套！※ 小資族想要斜槓賺取更多業外收入？這裡有網路創業的機會！不論您是有好商品要賣、或是正在找尋網路創業商機，都一定要來參加室內市集，北中南優質店家齊聚一堂，更有經營電商成功人士現身說法。",
+    "avatarImg": "https://static.accupass.com/org/2212191107211474462212.jpg",
+    "orgTitle": "酉時設計行銷工作室",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743829200",
+        "title": "個人票",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://static.accupass.com/eventbanner/2503050126031208148898.jpg",
+    "title": "建築 X 設計：品牌與人文的空間體現",
+    "views": 93,
+    "likes": 3,
+    "time": 1744349400,
+    "position": { "lat": 25.05790, "lng": 121.61288 },
+    "address": "台灣台北市南港區經貿二路196號10樓會議廳",
+    "addressRemark": "搭乘捷運文湖線 | 南港軟體圓區站-中國信託出口",
+    "location": "台北市",
+    "tag": "空間設計",
+    "category": "featured-2",
+    "description":"當空間不只是建築設計，而能展現企業品牌價值、鏈接與人的情感，將空間重新詮釋及賦能；國際社會關注碳與永續發展的議題，企業空間不只是一個營運領域，更是品牌精神的體現。該如何打造真正符合時代趨勢的商業場地？首度雙講者！建築專家與國際知名設計師齊聚一堂，不容錯過！",
+    "avatarImg": "https://static.accupass.com/userupload/92f726259d1446c49594be18ab368d91.jpg",
+    "orgTitle": "好優數位",
+    "orgInfoText":"好優數位",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1744349400",
+        "title": "永續早鳥優惠價 (含飯店客製午茶)",
+        "price": 500
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://static.accupass.com/eventbanner/2503040446143637711000.jpg",
+    "title": "清明回憶永續療癒市集",
+    "views": 247,
+    "likes": 6,
+    "time": 1743818400,
+    "position": { "lat": 25.06106, "lng": 121.52151 },
+    "address": "台灣台北市中山區中山北路二段116巷10號",
+    "addressRemark": "",
+    "location": "台北市",
+    "tag": "清明回憶永續市場",
+    "category": "featured-2",
+    "description":"where tradition meets innovation, offering a space for healing, reflection, and sustainable remembrance. This event is not just a market—it is a heartfelt experience that connects us with the past, honors our loved ones。",
+    "avatarImg": "https://static.accupass.com/org/2503100358568870165800.jpg",
+    "orgTitle": "和光里hekali",
+    "orgInfoText":"hekali",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743818400",
+        "title": "入場券",
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://static.accupass.com/eventbanner/2502191249361123065191.jpg",
+    "title": "2025【兒童龍來玩】兒童節親子工作坊 (童玩＋皮影)",
+    "views": 560,
+    "likes": 14,
+    "time": 1743742800,
+    "position": { "lat": 25.03620, "lng": 121.50029 },
+    "address": "台灣台北市臺北市萬華區西園路一段145號B2",
+    "addressRemark": "龍山文創基地B2(19號展間)影子傳奇龍山館",
+    "location": "台北市",
+    "tag": "恐龍",
+    "category": "featured-3",
+    "description": "#兒童節  #玩皮一下  #恐龍  #竹筷槍  ！！ 「兒童龍來玩」親子工作坊 ❝  皮影藝術 x 環保童玩 ❞兒童節創意活動，皮影戲結合童玩，一起進入「懷舊」的世界中，體驗以前孩子們都在玩什麼，活動不僅增進親子感情，更是認識文化與開拓藝術視野的最佳途徑。",
+    "avatarImg": "https://static.accupass.com/userupload/1ff2422a051b401f911b9cd2b1ec6455.jpg",
+    "orgTitle": "影子傳奇劇團",
+    "orgInfoText":"皮影戲",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743742800 ",
+        "title": "活動票券",
+        "price": 600
+      },
+      {
+        "id": 2,
+        "date": "1743829200  ",
+        "title": "活動票券",
+        "price": 600
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://static.accupass.com/eventbanner/2503040547132765187130.jpg",
+    "title": "❖ 地味灶咖-山山山市集聯名弁當 ❖ 𝙛𝙚𝙖𝙩. 嶺頂社區發展協會",
+    "views": 136,
+    "likes": 2,
+    "time": 1742011200,
+    "position": { "lat": 25.00295, "lng": 121.36588 },
+    "address": "台灣桃園市龜山區萬壽路二段6巷111號",
+    "addressRemark": "山山山市集服務台",
+    "location": "桃園市",
+    "tag": "在地文化體驗",
+    "category": "featured-3",
+    "description": "山山山市集聯名便當，特別邀請龜山在地「嶺頂社區發展協會」設計菜單，龜山在地小農時蔬入菜加上嶺頂媽媽的拿手料理，清脆的切菜聲、大火快炒鍋鏟的撞擊聲 ，冒出滾滾蒸氣的灶咖，濃縮成在地限定純粹的好滋味。",
+    "avatarImg": "https://static.accupass.com/org/2311271508252066991883.jpg",
+    "orgTitle": "微光生活設計室",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1742011200",
+        "title": "個人票",
+        "price": "免費票"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "image": "https://static.accupass.com/eventbanner/2502121757361285647458.jpg",
+    "title": "【魔術師的天方夜譚】親子魔術秀",
+    "views": 345,
+    "likes": 8,
+    "time": 1745649000,
+    "position": { "lat": 25.05476, "lng": 121.50990 },
+    "address": "台灣台北市大同區迪化街一段34號3F",
+    "addressRemark": "MiT 即時享樂 Restaurant & Bar",
+    "location": "台北市",
+    "tag": "大稻埕",
+    "category": "featured-3",
+    "description":"名稱｜【魔術師的天方夜譚】親子魔術秀 時間｜2025.4.26(六) 場次｜第一場14:30，第二場19:00 時長｜約80分鐘，演出前20分鐘入場",
+    "avatarImg": "https://static.accupass.com/org/2502102207442146607840.jpg",
+    "orgTitle": "小八劇場",
+    "orgInfoText":"小八劇場",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1745649000 ",
+        "title": "第一場",
+        "price": 600
+      },
+      {
+        "id": 2,
+        "date": "1742120852  ",
+        "title": "第二場",
+        "price": 600
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://static.accupass.com/eventbanner/2501031613348832677600.jpg",
+    "title": "高效產出學習歷程~帶你手把手完成個人學習檔案製作  ",
+    "views": 260,
+    "likes": 3,
+    "time": 1743418200,
+    "address": "此活動為線上活動，購票後可於票券頁進入直播連結",
+    "addressRemark": " 使用 google meet會議室 ",
+    "location": "線上活動",
+    "tag": "自主學習",
+    "category": "featured-3",
+    "description":"🎉 正如台大電機系教授葉丙成所說，有效呈現自己的努力過程與成果價值的能力，是一項非常重要的技能。這不僅可以提升個人品牌，還能讓你在學習和工作中脫穎而出。🎉 學習歷程搞不懂？家長們的專屬救星來啦！ 🎉✨ 六堂課程 幫助你高效產出 ✨    📌 家長們最需要的 3 大重點：🔸 如何整理孩子的學習記錄？🔸 怎樣讓學習歷程更吸引目光？🔸 AI可以如何活化你的學習檔案? ",
+    "avatarImg": "https://static.accupass.com/org/2304251517151680372136.jpg",
+    "orgTitle": "內心畫藝術療癒",
+    "orgInfoText":"內心畫藝術",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743418200",
+        "title": "線上六堂一對一精品課程",
+        "price": 27000
+      },
+      {
+        "id": 2,
+        "date": "1743418200",
+        "title": "3人以上 團體方案 線上精品課程",
+        "price": 19440
+      }
+    ]
+    
+  },
+  {
+    "id": 23,
+    "image": "https://static.accupass.com/eventbanner/2502151022041483300573.jpg",
+    "title": "藝術治療系統式學習小組（線上）",
+    "views": 208,
+    "likes": 12,
+    "time": 1743505200,
+    "address": "此活動為線上活動，購票後可於票券頁進入直播連結",
+    "addressRemark": "Google meet（開課前一週以電郵發送連結）",
+    "location": "線上活動",
+    "tag": "培訓",
+    "category": "featured-3",
+    "description": "你對藝術治療充滿好奇嗎？想知道它如何結合理論與實務，發揮療癒力量？透過10堂系統性學習，你將全面認識藝術治療的發展、理論基礎及不同族群的應用方式。小組將結合創作體驗與實務案例分享，帶領你深入探索藝術治療的可能性！",
+    "avatarImg": "https://static.accupass.com/org/2211110754019970452060.jpg",
+    "orgTitle": "Inside Art 藝旅",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743505200",
+        "title": "單堂",
+        "price": 800
+      },
+      {
+        "id": 2,
+        "date": "1743505200",
+        "title": "五堂以上優惠價",
+        "price": 500
+      },
+      {
+        "id": 3,
+        "date": "1743505200",
+        "title": "10堂全報超值價",
+        "price": 4000
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "https://static.accupass.com/eventbanner/2501270751281550661376.jpg",
+    "title": "Taoyuan 四泊五日｜桃園微住！台日交流～客家生活～|2025 黃金週假期 ゴールデンウィーク",
+    "views": 166,
+    "likes": 2,
+    "time": 1745971200,
+    "position": { "lat": 24.99052, "lng": 121.05149 },
+    "address": "桃園市新屋區龍莊路450巷30號",
+    "addressRemark": "台灣桃園市JI SPACE 亼聚 - 共作空間",
+    "location": "桃園市",
+    "tag": "台日交流",
+    "category": "featured-3",
+    "description":"你聽過微住嗎？由長期推廣台日文化的「田中佑典」提出，所謂微住，指的並不是完全「移住」，也不只是「觀光」，就如同字面上的意思，是「稍微住看看」的ㄧ種新的旅行形式。而如果「微住」在「桃園」發生，可以有什麼樣的樣貌產生？這次我們同時開放[台灣]和[日本]的朋友皆可共同報名，希望在認識南桃園的多元樣貌之餘，更可以進行語言交換，讓桃園成為與你產生緣份的家鄉吧！",
+    "avatarImg": "https://static.accupass.com/org/2403261647363260568030.jpg",
+    "orgTitle": "亼聚 - 共作空間 JI SPACE",
+    "orgInfoText":"亼聚 - 共作空間 JI SPACE",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1745971200",
+        "title": "獨旅報名",
+        "price": 15000
+      },
+      {
+        "id": 2,
+        "date": "1745971200",
+        "title": "結伴報名",
+        "price": 25000
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "https://static.accupass.com/eventbanner/2503040732551053824730.jpg",
+    "title": "《由 心．寂 止》流動畫藝術療癒 / 冥想茶體驗",
+    "views": 183,
+    "likes": 2,
+    "time": 1742967000,
+    "position": { "lat": 24.86490, "lng": 121.29343 },
+    "address": "台灣桃園市大溪區",
+    "addressRemark": "活動地點在桃園大溪老街附近，詳細地址會在報名完成後另行寄出Email通知。",
+    "location": "桃園市",
+    "tag": "冥想體驗",
+    "category": "banner",
+    "description":"我們的活動空間在桃園市大溪區一個僻靜的迷宮巷內，平時分享古美術道具、茶器和生態/有機茶品，與自然藝術/工藝類相關作品。",
+    "avatarImg": "https://static.accupass.com/org/2501151124393929845140.jpg",
+    "orgTitle": "思入玄",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": 1742967000,
+        "title": "《由 心．寂 止》 自我療癒工作坊",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "image": "https://static.accupass.com/eventbanner/2503110743021196540694.jpg",
+    "title": "📣玩樂本就是人之天性，這樣辦活動真好玩！🎬| 活動通了沒 #6",
+    "views": 183,
+    "likes": 2,
+    "time": 1743487200,
+    "position": { "lat": 22.68768, "lng": 22.68768 },
+    "address": "台灣高雄市左營區站前北路1號4樓",
+    "addressRemark": "Le phare 高雄新左營館",
+    "location": "高雄市",
+    "tag": "活動通了沒",
+    "category": "banner",
+    "description":"《活動通了沒？》邀請來自不同活動領域的主辦方，與大家分享舉辦活動的經驗談，促進活動主辦方們相互交流，壯大活動生態圈，為活動帶來更多可能性與新玩法！",
+    "avatarImg": "https://static.accupass.com/org/2208160323441604606485.jpg",
+    "orgTitle": "ACCUPASS 活動通",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743487200",
+        "title": "ACCUPASS 主辦方專屬 | 免費審核票",
+        "price": "免費票"
+      },
+      {
+        "id": 2,
+        "date": "1743487200",
+        "title": "單人活動票",
+        "price": 99
+      },
+      {
+        "id": 3,
+        "date": "1743487200",
+        "title": "雙人活動票",
+        "price": 75
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "image": "https://static.accupass.com/eventbanner/2503051302011811333448.jpg",
+    "title": "心靈繪畫工作坊 — 內在肖像",
+    "views": 91,
+    "likes": 2,
+    "time": 1744520400, 
+    "position": { "lat": 25.04885, "lng": 121.52078 },
+    "address": "台灣台北市中山區中山北路一段66號7樓",
+    "addressRemark": "露西森林・名日文化",
+    "location": "台北市",
+    "tag": "牌卡繪畫",
+    "category": "banner",
+    "description":"我們大多從別人的眼球映射認識自己，想像別人眼中的自己是什麼樣子。現在回到和自己面對面時候，實際感受自己的內在狀態，發現內在無窮盡寶藏與角色。春季內在肖像心靈繪畫，且於完成後於12月舉辦聯合成果展覽。",
+    "avatarImg": "https://static.accupass.com/org/2503130808072924224510.jpg",
+    "orgTitle": "Mumiah",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1744520400",
+        "title": "早鳥票 【牌卡心靈繪畫引導 - 內在面貌】",
+        "price": 1080
+      },
+      {
+        "id": 2,
+        "date": "1744520400",
+        "title": "早鳥票 【一個大大的「休息」直覺繪畫】",
+        "price": 720
+      },
+      {
+        "id": 3,
+        "date": "1746334800",
+        "title": "早鳥票【元素卡心靈繪畫引導 — 內在狀態】",
+        "price": 1980
+      },
+      {
+        "id": 4,
+        "date": "1746334800",
+        "title": "早鳥票【內在女神繪畫】",
+        "price": 1350
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "image": "https://static.accupass.com/eventbanner/2502070942002136721897.jpg",
+    "title": "《憂鬱，不只是藍色》共讀講座",
+    "views": 654,
+    "likes": 8,
+    "time": 1742018400,
+    "position": { "lat": 25.05314, "lng":121.51787 },
+    "address": "台灣台北市大同區承德路一段105號5樓",
+    "addressRemark": "",
+    "location": "台北市",
+    "tag": "共讀講座",
+    "category": "banner",
+    "description":"《憂鬱不只是藍色》是陳冠宇醫師於 2024 年初出版，針對非專業人士所著的精神健康科普書籍。這本暢銷作品獲得熱烈迴響後，陳醫師受邀在抱抱診所舉辦系列講座，期待能與讀者面對面交流，深化書中概念的理解。",
+    "avatarImg": "https://static.accupass.com/org/2211240640451553051844.jpg",
+    "orgTitle": "FarHugs 遠距抱抱",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1742018400",
+        "title": "🧑‍🤝‍🧑 共讀雙人票 第一梯次",
+        "price": 3800
+      },
+      {
+        "id": 2,
+        "date": "1742018400",
+        "title": "🧚🏿 單人獨享票 第一梯次",
+        "price": 2000
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "image": "https://static.accupass.com/eventbanner/2503031525524626814930.jpg",
+    "title": "3/29 🗓️【春】日本香遊び🎐 線香體驗 x 香道文化 x 暖心花茶",
+    "views": 142,
+    "likes": 8,
+    "time": 1743246000,
+    "position": { "lat": 25.03388, "lng":121.47500 },
+    "address": "台灣新北市 板橋區文化路2段441巷2弄2號1樓",
+    "addressRemark": "療寮生活館",
+    "location": "新北市",
+    "tag": "香道體驗",
+    "category": "banner",
+    "description":"人氣活動《日本香遊び》春日篇！在 《日本香遊び》— 春 活動中，我們將以香氣為引，隨著春天的步伐，展開一場「與自己對話」的旅程。春天，是萬物甦醒的季節，是寒冬過後的第一縷暖陽，是生命重新綻放的時刻。我們精選五款春日香品——梅花、茉莉花、櫻花、紫藤、鈴蘭，讓香氣引領您穿越時空，走進「春日花語五境」，感受 希望、溫暖、珍惜、靜心、幸福 的五個階段。",
+    "avatarImg": "https://static.accupass.com/org/2304181049121926811315.jpg",
+    "orgTitle": "療寮生活館 Chitchat LIFE",
+    "orgInfoText":"",
+    "tickets": [
+      {
+        "id": 1,
+        "date": "1743246000",
+        "title": "個人票",
+        "price": 600
+      },
+      {
+        "id": 2,
+        "date": "1743246000",
+        "title": "雙人票",
+        "price": 1100
+      }
+    ]
+  }
+]
+
+
