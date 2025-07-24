@@ -1,11 +1,6 @@
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  // 移除內建的 i18n 配置，使用 react-i18next
-  // i18n: {
-  //   locales: ['en', 'zh'],
-  //   defaultLocale: 'zh',
-  // },
-  
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -16,6 +11,6 @@ const nextConfig = {
       },
     ],
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;

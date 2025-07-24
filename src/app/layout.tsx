@@ -1,3 +1,4 @@
+// 根佈局
 import type { Metadata } from "next";
 import { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -5,10 +6,7 @@ import "./globals.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 
-// 引入組件
-import I18nProvider from "./components/I18nProvider";
-
-// 字體設置
+// 原字體設置
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,9 +27,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <AntdRegistry>
-          <I18nProvider>
-            {children}
-          </I18nProvider>
+          {children}
         </AntdRegistry>
       </body>
     </html>

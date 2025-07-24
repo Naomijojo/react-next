@@ -1,6 +1,5 @@
 "use client"
 
-import { useTranslation } from 'react-i18next'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
@@ -12,14 +11,13 @@ interface Tab {
 
 // 靜態數據
 const tabs: Tab[] = [
-  { id: 1, icon: 'icon-star', label: 'tab.featured' },
-  { id: 2, icon: 'icon-learn', label: 'tab.learning' },
-  { id: 3, icon: 'icon-art', label: 'tab.art' },
-  { id: 4, icon: 'icon-experience', label: 'tab.experience' }
+  { id: 1, icon: 'icon-star', label: '精選' },
+  { id: 2, icon: 'icon-learn', label: '學習' },
+  { id: 3, icon: 'icon-art', label: '藝文' },
+  { id: 4, icon: 'icon-experience', label: '體驗' }
 ]
 
 export default function TabNav() {
-  const { t } = useTranslation()
   const [currentTab, setCurrentTab] = useState(1)
   const [loading, setLoading] = useState(true)
 
@@ -53,7 +51,7 @@ export default function TabNav() {
               >
                 <span className={`inline-block w-5 h-5 align-middle transition-all duration-100 mr-2 ${tab.icon}`}></span>
                 <span className="transition-all duration-100">
-                  {t(tab.label)}
+                  {tab.label}
                 </span>
               </Link>
               <div className={`w-full h-1 transition-all duration-100 ${

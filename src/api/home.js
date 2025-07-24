@@ -1,27 +1,24 @@
 import axios from "axios" 
+import recommendData from '../mock/data/recommend.json'
+import articleData from '../mock/data/article.json'
 
-// 設置 axios 默認配置
 axios.defaults.baseURL = process.env.NODE_ENV === 'development' ? '' : ''
 
-export const homeApi = {
-  getRecommend: async () => {
-    try {
-      const { data } = await axios.get('/mock/recommend') // mockjs攔截
-      console.log('getRecommend:', data)
-      return data
-    } catch (err) {
-      console.error('homeApi getRecommend 請求失敗:', err)
-      throw err
+// homeApi 中直接導入 JSON 文件,開發環境直接返回 mock 數據
+
+export const homeApi = { 
+  getRecommend: async() => { 
+    if (process.env.NODE_ENV === 'development') {
+      return { code: 200, data: recommendData }
     }
+    const { data } = await axios.get('/mock/recommend')
+    return data
   },
-  getTabs: async () => {
-    try {
-      const { data } = await axios.get('/mock/tabs')
-      console.log('getTabs:', data)
-      return data
-    } catch (err) {
-      console.error('homeApi getTabs 請求失敗:', err)
-      throw err
+  getArticle: async() =>{
+    if (process.env.NODE_ENV === 'development') {
+      return { code: 200, data: articleData }
     }
-  },
+    const { data } = await axios.get('/mock/article')
+    return data
+  }
 }

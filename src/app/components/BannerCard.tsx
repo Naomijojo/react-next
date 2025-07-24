@@ -1,5 +1,23 @@
-import React from 'react'
+'use client'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
+import { Carousel } from 'antd'
+import { useRouter } from 'next/navigation'
+
+import recommendData from '@/mock/data/recommend.json'
+
+interface BannerItem {
+  id: number
+  image: string
+  title: string
+  description: string
+  location: string
+  tag: string
+  category: string
+  time: number
+  views?: number
+  likes?: number
+}
 
 interface BannerCardProps {
   image: string
@@ -8,17 +26,18 @@ interface BannerCardProps {
   onGoToPage: () => void
 }
 
+
 const BannerCard = ({ image, title, onGoToPage }: BannerCardProps) => {
   return (
-    <div className="banner-wrap relative overflow-hidden rounded-lg shadow-lg group">
-      <div className="relative">
+    <div className="banner-wrap relative overflow-hidden rounded-lg shadow-lg group w-full h-full cursor-pointer">
+      <div className="relative w-full h-full">
         <Image 
           src={image} 
           alt={title || 'banner'} 
           onClick={onGoToPage}
           width={1080}
-          height={540}
-          className="w-full h-[300px] md:h-[560px] object-cover cursor-pointer transition-transform duration-500 group-hover:scale-110"
+          height={300}
+          className="w-full h-full object-cover cursor-pointer transition-transform duration-500 group-hover:scale-110"
         />
         
         {/* 漸層遮罩 */}
@@ -30,6 +49,41 @@ const BannerCard = ({ image, title, onGoToPage }: BannerCardProps) => {
         </div>
       </div>
     </div>
+  )
+}
+
+// 新增 BannerCarousel 元件來處理輪播功能
+export const BannerCarousel = () => {
+  const [bannerData, setBannerData] = useState<BannerItem[]>([])
+  const router = useRouter()
+
+  useEffect(() => {
+    const bannerItems = recommendData.filter(item => item.category === 'banner')
+    setBannerData(bannerItems)
+  }, [])
+
+  const handleBannerClick = (id: number) => {
+    router.push(`/event/${id}`)
+  }
+
+  return (
+    <Carousel 
+      autoplay={true} 
+      arrows
+      dots
+      className="mt-[10px] mb-[14px]"
+      autoplaySpeed={5000}
+    >
+      {bannerData.map((item) => (
+        <BannerCard
+          key={item.id} 
+          image={item.image}
+          title={item.title}
+          description={item.description}
+          onGoToPage={() => handleBannerClick(item.id)}
+        />
+      ))}
+    </Carousel>
   )
 }
 
