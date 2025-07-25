@@ -2,6 +2,7 @@
   "name": "next",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -16,14 +17,11 @@
     "axios": "^1.10.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.7",
-    "i18next": "^25.3.2",
-    "i18next-browser-languagedetector": "^7.2.0",
-    "i18next-http-backend": "^3.0.2",
     "mockjs": "^1.1.0",
     "next": "15.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-i18next": "^15.6.0",
+    "react-intersection-observer": "^9.16.0",
     "react-redux": "^9.2.0"
   },
   "devDependencies": {

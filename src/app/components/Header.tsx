@@ -2,20 +2,25 @@
 import Link from "next/link";
 import Image from "next/image";
 // import clsx from 'clsx'
-import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useState, useEffect, useRef } from "react";
+import { Dropdown } from 'antd';
 import { sanitizeInput } from "../../utils/sanitizeInput";
+import { useTranslation } from "@/i18n/useTranslation";
 
 export default function Header() {
   // const pathname = usePathname()
   const [isSearchActive, setIsSearchActive] = useState(false)
   const router = useRouter();
   const [searchValue, setSearchValue] = useState("")
+  const { t, switchLanguage } = useTranslation({ 
+    includeSwitchLanguage: true 
+  });
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
   
   const navLinks = [
-    { name: "登入", href: "/login" },
-    { name: "辦活動", href:"/myevents", isButton: true}
+    { name: t("login"), href: "/login" },
+    { name: t("organize_activities"), href:"/myevents", isButton: true}
   ];
 
   const handleSearchClick = () => {
@@ -26,6 +31,9 @@ export default function Header() {
     }
   };
   
+  const handleLanguageSwitch = (newLocale: 'zh' | 'en') => {
+    switchLanguage?.(newLocale);
+  };
 
   return (
     <header className="fixed w-full h-[50px] bg-[#008bd0] z-50 text-white px-[10px]">
@@ -40,13 +48,13 @@ export default function Header() {
             <div className="flex justify-center items-center h-[50px] mr-[10px] ml-[5px] px-[5px] transition duration-200 ease-in-out">
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-location-dot"></i>
-                <span>台北</span>
+                <span>{t("location.taipei")}</span>
                 <i className="fa-solid fa-caret-down text-sm cursor-pointer" style={{color:'#e5e7eb'}}></i>
               </div>
             </div>
           </div>
 
-          {/* LOGO*/}
+          {/* LOGO */}
           <div className="absolute left-1/2 transform -translate-x-1/2 ">
             <Link href="/" className="relative w-[130px] h-[32px] block">
               <Image
@@ -72,7 +80,7 @@ export default function Header() {
                 {isSearchActive ? (
                   <input
                   type="text"
-                  placeholder="搜尋活動"
+                  placeholder={t("search_activities")}
                   value={searchValue}
                   onChange={(e) => setSearchValue(sanitizeInput(e.target.value))}
                   className="px-2 py-1 rounded-2xl bg-white text-[#0088d3] text-sm w-[100px] transition-all duration-300"
@@ -88,12 +96,40 @@ export default function Header() {
             </div>
 
             <div className="flex items-center gap-2 text-white">
-              <div className="hidden lg:flex items-center cursor-pointer hover:opacity-70">
-                <span>語言</span>
-                <i className="fa-solid fa-caret-down text-sm cursor-pointer ml-1" style={{color:'#e5e7eb'}}></i>
+              <div className="hidden lg:flex items-center cursor-pointer hover:opacity-70 relative language-container">
+                <span>{t("language")}</span>
+                <Dropdown
+                  menu={{
+                    items: [
+                      {
+                        key: 'zh',
+                        label: (
+                          <div onClick={() => handleLanguageSwitch('zh')} className="px-3 py-2 text-black text-sm cursor-pointer hover:bg-white/20 transition-colors">
+                            中文
+                          </div>
+                        ),
+                      },
+                      {
+                        key: 'en',
+                        label: (
+                          <div onClick={() => handleLanguageSwitch('en')} className="px-3 py-2 text-black text-sm cursor-pointer hover:bg-white/20 transition-colors border-t border-white/20">
+                            EN
+                          </div>
+                        ),
+                      },
+                    ],
+                  }}
+                  trigger={['click']}
+                  placement="bottom"
+                  arrow
+                >
+                  <span className="ml-1 cursor-pointer">
+                    <i className="fa-solid fa-caret-down text-sm" style={{color:'#e5e7eb'}}></i>
+                  </span>
+                </Dropdown>
               </div>
               <div className="hidden lg:flex items-center gap-2 cursor-pointer hover:opacity-70">
-                <span>模式</span>
+                <span>{t("mode")}</span>
               </div>
             </div>
 

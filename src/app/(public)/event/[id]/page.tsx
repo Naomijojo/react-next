@@ -28,11 +28,11 @@ export default function EventPage() {
 
   const getEventData = async() => {
     // 模擬API調用
-    setTimeout(() => {
+      setTimeout(() => {
       setEventData(recommendData)
-      setLoading(false)
-    }, 500)
-  }
+        setLoading(false)
+      }, 500)
+    }
 
   useEffect(() => {
     getEventData()
@@ -89,37 +89,37 @@ export default function EventPage() {
         
         <div className="border border-solid border-gray-200 flex gap-6 bg-gray-100 rounded-lg pt-6 pb-8 pl-12">
           <div className="flex-1" style={{width: 'calc(100% - 300px)'}}>
-            {/* 活動標題 */}
+          {/* 活動標題 */}
             <div className="mb-6">
-              <h1 className="text-3xl font-bold text-gray-800 mb-2">{event.title}</h1>
-              <div className="flex items-center gap-6 text-gray-600">
-                {event.views && (
-                  <span className="flex items-center gap-1">
-                    <i className="fa-solid fa-eye" style={{color:'#ccc'}}></i>
-                    {event.views} 
-                  </span>
-                )}
-                {event.likes && (
-                  <span className="flex items-center gap-1">
-                    <i className="fa-solid fa-heart" style={{color:'#ccc'}}></i>
-                    {event.likes}
-                  </span>
-                )}
-              </div>
-            </div>
-
-            {/* 活動描述 */}
-            <div className="mb-6">
-              <h1 className="text-xl font-bold leading-[48px] text-gray-800 mb-3">活動描述</h1>
-              <div className="border border-solid border-gray-200 mt-7 py-6 px-10 rounded-lg">
-                <p className="text-gray-600 leading-relaxed">{event.description}</p>
-              </div>
+            <h1 className="text-3xl font-bold text-gray-800 mb-2">{event.title}</h1>
+            <div className="flex items-center gap-6 text-gray-600">
+              {event.views && (
+                <span className="flex items-center gap-1">
+                  <i className="fa-solid fa-eye" style={{color:'#ccc'}}></i>
+                  {event.views} 
+                </span>
+              )}
+              {event.likes && (
+                <span className="flex items-center gap-1">
+                  <i className="fa-solid fa-heart" style={{color:'#ccc'}}></i>
+                  {event.likes}
+                </span>
+              )}
             </div>
           </div>
 
+          {/* 活動描述 */}
+            <div className="mb-6">
+            <h1 className="text-xl font-bold leading-[48px] text-gray-800 mb-3">活動描述</h1>
+            <div className="border border-solid border-gray-200 mt-7 py-6 px-10 rounded-lg">
+              <p className="text-gray-600 leading-relaxed">{event.description}</p>
+            </div>
+          </div>
+        </div>
+
           {/* 大螢幕顯示orgInfo  */}
           <div className="w-[300px] hidden lg:block">
-            <div className="mb-6">
+          <div className="mb-6">
               <h5 className="text-md font-bold leading-[48px] text-gray-800 mb-3">
                 <div className="flex items-center gap-2 pl-10">
                   {event.avatarImg && (
@@ -137,9 +137,9 @@ export default function EventPage() {
                 <button className="w-full bg-blue-500 text-white px-4 py-2 rounded-md">立即報名</button>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-
+          
         {/* 小螢幕底部固定按鈕 */}
         <div className="lg:hidden fixed bottom-0 left-0 right-0 bg-blue-500 p-4 z-50">
           <div className="max-w-[1080px] mx-auto px-4">

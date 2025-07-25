@@ -2,29 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 自定義組件 */
+/* ------------各瀏覽器隱藏滾動條設定------------------ */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* ------------@layer tailwind分層------------------ */
+/* 基礎樣式 */
+@layer base {
+}
+
+/* 組件樣式 */
 @layer components {
   /* antd Carousel 樣式 */
   .ant-carousel .slick-dots {
     @apply bottom-4;
   }
-
   .ant-carousel .slick-dots li button {
     @apply bg-white/50 w-3 h-3 rounded-full;
   }
-
   .ant-carousel .slick-dots li.slick-active button {
     @apply bg-white;
   }
-
   .ant-carousel .slick-arrow {
     @apply bg-black/30 text-white hover:bg-black/50 transition-colors;
   }
-
   .ant-carousel .slick-prev {
     @apply left-4;
   }
-
   .ant-carousel .slick-next {
     @apply right-4;
   }
@@ -55,7 +65,6 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-
   .video-type::before {
     margin-right: 4px;
     background-image: url(../../public/images/icon-card-online.svg);
@@ -63,32 +72,37 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-
   .tags-container {
     @apply mt-3 pt-3 border-t border-gray-100;
   }
-
   .tags {
     @apply text-sm text-blue-600 cursor-pointer hover:text-blue-800 transition-colors;
   }
-
   .tags-counts {
     @apply space-x-4 text-sm text-gray-500;
   }
-
   .tags-counts span {
     @apply flex items-center;
   }
 
-  /* RWD */
-  @media (max-width: 768px) {
-    .card-event-content {
-      @apply p-3;
-    }
-    
-    .card-event-name {
-      @apply text-base;
-    }
+  /* Ant Design Dropdown 樣式 */
+  .ant-dropdown {
+    @apply bg-[#008bd0] border-[#008bd0] rounded shadow-lg;
+  }
+  .ant-dropdown-menu {
+    @apply bg-[#008bd0] border-[#008bd0] rounded shadow-lg;
+    padding: 0;
+  }
+  .ant-dropdown-menu-item {
+    @apply bg-[#008bd0] hover:bg-white/20;
+    padding: 0;
+  }
+  .ant-dropdown-menu-item:hover {
+    @apply bg-white/20;
   }
 }
 
+/* 工具類樣式 */
+@layer utilities {
+  
+}
